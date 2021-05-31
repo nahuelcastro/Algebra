@@ -22,29 +22,6 @@ idDeUsuario (id, _) = id
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 aparicionesDe :: Integer -> [Integer] -> Integer
 aparicionesDe n [] = 0	
 aparicionesDe n (x:xs) | n==x = 1 + aparicionesDe n xs 
@@ -147,6 +124,7 @@ sumaNotas (x:xs) = x + sumaNotas xs
 
 promedioDe :: [(Integer,Float)] -> Integer -> Float
 promedioDe xs n = promedio (notasLimpias xs n )
+
 
 ----------------------PARCIAL ----------------------
 --1--
